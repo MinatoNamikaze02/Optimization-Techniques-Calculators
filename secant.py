@@ -12,14 +12,12 @@ def findValA():
     for i in range (0, 10):
         exp = expression(i)
         if(exp<0):
-            print(i)
             return i
 
 def findValB():
     for i in range (0, 10):
         exp = expression(i)
         if(exp>0):
-            print(i)
             return i
 
 
