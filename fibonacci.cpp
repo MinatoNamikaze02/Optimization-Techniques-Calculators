@@ -21,7 +21,8 @@ int fib(int n)
 
 float f(double x)
 {
-    return pow(x,3)*(x-3)*pow((x-6),4);
+    return pow(x,3)*(x-3)*pow((x-6),4);  //enter function here
+    
 }
 //in this question (4,7) is the uncertainity region and n=3
 int main()
