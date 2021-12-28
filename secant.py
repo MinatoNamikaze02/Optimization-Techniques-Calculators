@@ -1,24 +1,28 @@
 
 
 # import numpy as np
-import sys
 
-sys.setrecursionlimit(5000)
+# import numpy as np
+import sys
+e = 2.718
+sys.setrecursionlimit(10000)
 
 def expression(x):
-    return 2 * pow(x, 3) - 2 * x - 5                     # replace with your function here!
+    return 2*x - (54/x**2)              # replace with your function here!
 
 def findValA():
-    for i in range (0, 10):
+    for i in range (1, 10):
         exp = expression(i)
         if(exp<0):
-            return i
+            returnVal = i
+    return returnVal
 
 def findValB():
-    for i in range (0, 10):
+    for i in range (1, 10):
         exp = expression(i)
         if(exp>0):
-            return i
+            returnVal = i
+    return returnVal
 
 
 def step2(a,b):
@@ -57,3 +61,4 @@ else:
     a = findValA()
     b = findValB()
     recursion(a,b)
+
