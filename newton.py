@@ -2,10 +2,10 @@ from typing import no_type_check
 import numpy as np
 
 def f(x):
-    return pow(x,3)-12.2*pow(x,2)+7.45*x+42
+    return pow(x,3)-12.2*pow(x,2)+7.45*x+42      # enter first order derivative of your function here
 
 def f_(x):
-    return 3*pow(x,2)-24.4*x+7.45
+    return 3*pow(x,2)-24.4*x+7.45               # enter second order derivative of your function here
 
 x = [0] * 20
 x[0] = float(input("Enter the initail approximation (x0)\n"))
