@@ -8,7 +8,7 @@ e = 2.718
 sys.setrecursionlimit(10000)
 
 def expression(x):
-    return 2*x - (54/x**2)              # replace with your function here!
+    return 2*x - (54/x**2)              # replace with the derivative of your function here!
 
 def findValA():
     for i in range (1, 10):
