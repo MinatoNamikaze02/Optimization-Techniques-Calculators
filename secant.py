@@ -2,7 +2,6 @@
 
 # import numpy as np
 
-# import numpy as np
 import sys
 e = 2.718
 sys.setrecursionlimit(10000)
