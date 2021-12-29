@@ -5,10 +5,9 @@
    * Download the code files as zip or git clone it (up to you).
    * Make sure you have atleast Python-3.10.0 and gcc-11.2 installed.
    * Also, do make sure you have python libraries such as [numpy](https://numpy.org/), [scipy](https://scipy.org/) and [sympy](https://www.sympy.org/en/index.html) installed and        ready to use.
-   * Now you're all ready to use,
    * It's not necessary for you to know the concepts to use these calculators, however it is recommended that you do.
    * We didn't take the time to make regex for parsing function as inputs, 
-   * hence *you have to edit your function in the source file*.
+     hence *you have to edit your function in the source file*.
    * Some questions need derivatives and double derivatives. Use other online sources to find it, such as [derivative-calculator](https://www.derivative-calculator.net/)
    * This calculator was tested with various questions and the answers were pretty accurate (a lot of anomolies are to be expected.)
    
