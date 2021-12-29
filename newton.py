@@ -8,7 +8,7 @@ def f_(x):
     return 3*pow(x,2)-24.4*x+7.45               # enter second order derivative of your function here
 
 x = [0] * 20
-x[0] = float(input("Enter the initail approximation (x0)\n"))
+x[0] = float(input("Enter the initial approximation (x0)\n"))
 
 n = int(input("Enter the number or approximations you need \n"))
 
