@@ -1,6 +1,6 @@
 # Optimization-Techniques-Calculator
 ## Why we did this?
-   To pass exams? Probably.
+   * We were bored.
 ## How to use this
    * Download the code files as zip or git clone it (up to you).
    * Make sure you have atleast Python-3.10.0 and gcc-11.2 installed.
