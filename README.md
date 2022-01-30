@@ -9,11 +9,11 @@
    * We didn't take the time to make regex for parsing function as inputs, 
      hence *you have to edit your function in the source file*.
    * Some questions need derivatives and double derivatives. Use other online sources to find it, such as [derivative-calculator](https://www.derivative-calculator.net/)
-   * This calculator was tested with various questions and the answers were pretty accurate (a lot of anomolies are to be expected.)
+   * This calculator was tested with various questions and the answers were pretty accurate (a lot of anomolies are to be expected).
    
 ## Getting a wrong answer?
    * Check the function you've entered into the source file.
-   * Check the input values you fed.
+   * Check the input values you've fed.
    * See if your questions specifies the number of iterations. 
    * See if your answer was obtained a few iterations prior.
  
@@ -21,5 +21,5 @@
    * Use trigonometric functions using the numpy lib. 
         * (For example: np.sin(x) for sin(x))
    * For e(euler's number) add this line (from numpy import exp) and use it as follows.
-        * (For exmaple: exp(x) corresponds to e^x)
+        * (For example: exp(x) corresponds to e^x)
    
