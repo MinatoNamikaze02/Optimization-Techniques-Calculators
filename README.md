@@ -1,6 +1,6 @@
 # Optimization-Techniques-Calculator
 ## Why we did this?
-   * We were bored.
+   * We like math.
 ## How to use this
    * Download the code files as zip or git clone it (up to you).
    * Make sure you have atleast Python-3.10.0.
@@ -30,3 +30,4 @@
    ![implementation2](https://github.com/MinatoNamikaze02/Optimization-Techniques-Calculator/blob/master/assets/imp_example2.png)
    
    * For any queries regarding specific scripts run `python3 <script_name>.py --help`
+ 
