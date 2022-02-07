@@ -10,7 +10,7 @@
    * This calculator was tested with various questions and the answers were pretty accurate (a lot of anomolies are to be expected).
    
 ## Getting a wrong answer?
-   * Check the function you've entered into the source file.
+   * Re-check your input function (the syntax expected is slightly different -> [updates](Updates)).
    * Check the input values you've fed.
    * See if your questions specifies the number of iterations. 
    * See if your answer was obtained a few iterations prior.
