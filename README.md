@@ -10,20 +10,19 @@
    * This calculator was tested with various questions and the answers were pretty accurate (a lot of anomolies are to be expected).
    
 ## Getting a wrong answer?
-   * Check the function you've entered into the source file.
+   * Re-check your input function (the syntax expected is slightly different -> [updates](#Updates)).
    * Check the input values you've fed.
    * See if your questions specifies the number of iterations. 
    * See if your answer was obtained a few iterations prior.
 
 ## Updates
-   * Added CLI args option to make it easier to use.
+   * Added command-line args option to make it easier to use.
    * However, the input function string is only accepted in a python style syntax. For example: `x**2 + 10*x - 10` instead of `x^2 - 10x - 10` 
- 
-## Final Notes
-   * Use trigonometric functions using the numpy lib. 
-        * (For example: np.sin(x) for sin(x))
-   * For e(euler's number) add this line (from numpy import exp) and use it as follows.
-        * (For example: exp(x) corresponds to e^x)
    
 ## Implementation 
-   
+   * The implementation example using command-line args is given below.
+
+   ![implementation1](https://github.com/MinatoNamikaze02/Optimization-Techniques-Calculator/blob/master/single-variate/imp_example1.png)
+   * The implementation example using standard input is given below.
+
+   ![implementation2](https://github.com/MinatoNamikaze02/Optimization-Techniques-Calculator/blob/master/single-variate/imp_example2.png)
