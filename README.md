@@ -18,12 +18,6 @@
 ## Updates
    * Added CLI args option to make it easier to use.
    * However, the input function string is only accepted in a python style syntax. For example: `x**2 + 10*x - 10` instead of `x^2 - 10x - 10` 
- 
-## Final Notes
-   * Use trigonometric functions using the numpy lib. 
-        * (For example: np.sin(x) for sin(x))
-   * For e(euler's number) add this line (from numpy import exp) and use it as follows.
-        * (For example: exp(x) corresponds to e^x)
    
 ## Implementation 
    * The implementation example using CLI args is given below.
