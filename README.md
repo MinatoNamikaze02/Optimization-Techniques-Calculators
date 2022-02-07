@@ -5,6 +5,7 @@
    * Download the code files as zip or git clone it (up to you).
    * Make sure you have atleast Python-3.10.0.
    * Also, do make sure you have python libraries such as [numpy](https://numpy.org/), [scipy](https://scipy.org/) and [sympy](https://www.sympy.org/en/index.html) installed and        ready to use.
+   * Just go to the terminal, locate to the folder or rather just copy the path of the specific script and run it (More specific -> [implementation](#Implementation))
    * It's not necessary for you to know the concepts to use these calculators, however it is recommended that you do.
    * Some questions need derivatives and double derivatives. Use other online sources to find it, such as [derivative-calculator](https://www.derivative-calculator.net/)
    * This calculator was tested with various questions and the answers were pretty accurate (a lot of anomolies are to be expected).
