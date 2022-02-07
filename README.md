@@ -26,4 +26,4 @@
         * (For example: exp(x) corresponds to e^x)
    
 ## Implementation 
-   
+   ![implementation1](https://github.com/MinatoNamikaze02/Optimization-Techniques-Calculator/blob/master/single-variate/imp_example1.png)
