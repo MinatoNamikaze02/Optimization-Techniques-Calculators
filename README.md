@@ -28,3 +28,5 @@
    * The implementation example using standard input is given below.
 
    ![implementation2](https://github.com/MinatoNamikaze02/Optimization-Techniques-Calculator/blob/master/assets/imp_example2.png)
+   
+   * For any queries regarding specific scripts run `python3 <script_name>.py --help`
