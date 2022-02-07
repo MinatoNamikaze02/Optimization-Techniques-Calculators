@@ -22,7 +22,7 @@
 ## Implementation 
    * The implementation example using command-line args is given below.
 
-   ![implementation1](https://github.com/MinatoNamikaze02/Optimization-Techniques-Calculator/blob/master/single-variate/imp_example1.png)
+   ![implementation1](https://github.com/MinatoNamikaze02/Optimization-Techniques-Calculator/blob/master/assets/imp_example1.png)
    * The implementation example using standard input is given below.
 
-   ![implementation2](https://github.com/MinatoNamikaze02/Optimization-Techniques-Calculator/blob/master/single-variate/imp_example2.png)
+   ![implementation2](https://github.com/MinatoNamikaze02/Optimization-Techniques-Calculator/blob/master/assets/imp_example2.png)
