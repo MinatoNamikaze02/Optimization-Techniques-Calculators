@@ -16,11 +16,11 @@
    * See if your answer was obtained a few iterations prior.
 
 ## Updates
-   * Added CLI args option to make it easier to use.
+   * Added command-line args option to make it easier to use.
    * However, the input function string is only accepted in a python style syntax. For example: `x**2 + 10*x - 10` instead of `x^2 - 10x - 10` 
    
 ## Implementation 
-   * The implementation example using CLI args is given below.
+   * The implementation example using command-line args is given below.
 
    ![implementation1](https://github.com/MinatoNamikaze02/Optimization-Techniques-Calculator/blob/master/single-variate/imp_example1.png)
    * The implementation example using standard input is given below.
