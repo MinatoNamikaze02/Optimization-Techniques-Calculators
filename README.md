@@ -13,8 +13,7 @@
    
 ## Getting a wrong answer?
    * Re-check your input function (the syntax expected is slightly different -> [updates](#Updates)).
-   * Check the input values you've fed.
-   * See if your questions specifies the number of iterations. 
+   * Check the input values you've fed. 
    * See if your answer was obtained a few iterations prior.
 
 ## Updates
