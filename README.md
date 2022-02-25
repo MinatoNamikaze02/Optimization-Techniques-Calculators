@@ -1,6 +1,6 @@
 # Optimization-Techniques-Calculator
 ## Overview 
-   This is a command line application that solved optimization math problems with specific techniques.
+   This is a command line application that solves optimization math problems with specific techniques.
 ## Why we did this?
    * We like math.
 ## How to use this
