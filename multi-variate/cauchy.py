@@ -10,8 +10,8 @@ res = parseCLI(type = "cauchy")
 if res == False:
     init_expr = input("Enter the function in terms of x and y: ")
     expr = init_expr.replace("x", "x[0]").replace("y", "x[1]")
-    a = input("Enter a: ")
-    b = input("Enter b: ")
+    a = int(input("Enter a: "))
+    b = int(input("Enter b: "))
     iter = int(input("Enter number of iterations: "))
 else:
     [options, args] = res
