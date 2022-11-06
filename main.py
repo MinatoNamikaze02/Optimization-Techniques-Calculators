@@ -23,7 +23,7 @@ def optimization(type, func, first, second, third, iter, epsilon):
     if type not in allowed_methods:
         print("Invalid method")
         return
-    if not func: 
+    if not func:
         print("Function is required")
         return
     if type == "sec":
@@ -75,5 +75,7 @@ def optimization(type, func, first, second, third, iter, epsilon):
             return
         result = mv_utils.cauchy_gradient_primary(func, first, second, iter)
         print(result)
+
+
 if __name__ == "__main__":
     optimization()
