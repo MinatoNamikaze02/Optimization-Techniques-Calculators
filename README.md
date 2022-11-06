@@ -1,7 +1,8 @@
 # Optimization-Techniques-Calculator
+A simple and easy-to-use CLI application that can be used to solved optimization problems!
 
 ## Overview 
-   A simple CLI application that can calculate the following optimization techniques:
+   Currently supports the following optimization techniques
    - Newton Raphson
    - Secant Method
    - Fibonacci Search
