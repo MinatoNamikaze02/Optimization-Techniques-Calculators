@@ -1,4 +1,5 @@
 # Optimization-Techniques-Calculator
+
 ## Overview 
    A simple CLI application that can calculate the following optimization techniques:
    - Newton Raphson
