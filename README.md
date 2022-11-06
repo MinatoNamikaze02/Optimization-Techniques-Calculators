@@ -63,6 +63,7 @@ $ python3 main.py newt -f "x**2 - 2" -x1 1 -i 10
 
 ## Updates
    * Moved to [click](https://www.google.com/search?client=safari&rls=en&q=click+python&ie=UTF-8&oe=UTF-8) for better CLI experience.
+   * Revamped the whole structure entirely.
 
 ## How can you help?
 - Feel free to open issues/PR's for any bugs or improvements.
