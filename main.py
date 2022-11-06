@@ -23,56 +23,57 @@ def optimization(type, func, first, second, third, iter, epsilon):
     if type not in allowed_methods:
         print("Invalid method")
         return
+    if not func: 
+        print("Function is required")
+        return
     if type == "sec":
-        if func is None or first is None or second is None:
+        if first is None or second is None:
             print("Missing arguments")
             return
         result = sv_utils.secant_primary(func, first, second, epsilon)
         print(result)
     elif type == "newt":
-        if func is None or first is None or iter is None:
+        if not first or not iter:
             print("Missing arguments")
             return
         result = sv_utils.newton_primary(func, first, iter, epsilon)
         print(result)
     elif type == "fib":
-        if func is None or first is None or second is None or iter is None:
+        if not first or not second or not iter:
             print("Missing arguments")
             return
         result = sv_utils.fibonacci_primary(func, first, second, iter, epsilon)
         print(result)
     elif type == "GS":
-        if func is None or first is None or second is None or iter is None:
+        if not first or not second or not iter:
             print("Missing arguments")
             return
         result = sv_utils.golden_section_primary(func, first, second, iter, epsilon)
         print(result)
     elif type == "DS":
-        if func is None or first is None or second is None:
+        if not first or not second:
             print("Missing arguments")
             return
         result = mv_utils.downhill_simplex_primary(func, first, second)
         print(result)
     elif type == "lagin":
-        if func is None or first is None or second is None:
+        if not first or not second:
             print("Missing arguments")
             return
         x = [first, second, third] if third else [first, second]
         result = mv_utils.lagrange_interpolation_primary(func, x)
         print(result)
     elif type == "ls":
-        if func is None or first is None or second is None:
+        if not first or not second:
             print("Missing arguments")
             return
         result = mv_utils.least_squares_primary(func, first, second)
         print(result["x"])
     elif type == "CG":
-        if func is None or first is None or second is None or iter is None:
+        if not first or not second or not iter:
             print("Missing arguments")
             return
         result = mv_utils.cauchy_gradient_primary(func, first, second, iter)
         print(result)
-
-
 if __name__ == "__main__":
     optimization()
