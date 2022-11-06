@@ -45,6 +45,8 @@ Options:
 ## Examples
 ```
 $ python3 main.py newt -f "x**2 - 2" -x1 1 -i 10
+```
+```
 >>> 1.414213562373095
 ```
  
